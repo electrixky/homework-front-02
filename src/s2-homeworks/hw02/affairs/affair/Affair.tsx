@@ -1,12 +1,11 @@
 import React from 'react'
-import { AffairType } from '../../HW2'
+import {AffairType} from '../../HW2'
 import s from './Affair.module.css'
 import s2 from '../Affairs.module.css'
 
 type AffairPropsType = {
-    // key не нужно типизировать
     affair: AffairType
-    deleteAffairCallback: any // need to fix any
+    deleteAffairCallback: () => void
 }
 
 function Affair(props: AffairPropsType) {
