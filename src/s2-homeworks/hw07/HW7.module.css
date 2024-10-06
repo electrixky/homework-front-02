@@ -1,2 +1,6 @@
 .container {
+    display: flex;
+    gap: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
