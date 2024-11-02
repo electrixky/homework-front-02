@@ -36,7 +36,7 @@ function Clock() {
         second: '2-digit',
         hour12: false,
     }) || <br/>; // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
-    const stringDate = date.toLocaleDateString('en-US', {
+    const stringDate = date.toLocaleDateString('ru-Ru', {
         day: '2-digit',
         month: '2-digit',
         year: 'numeric',
